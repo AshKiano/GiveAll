@@ -1,0 +1,15 @@
+name: GiveAll
+version: '${project.version}'
+main: giveall.giveall.GiveAll
+api-version: 1.16
+authors: [ AshKiano ]
+website: https://www.ashkiano.com
+commands:
+  giveall:
+    description: Gives all online players the item in your hand.
+    usage: /giveall
+    permission: giveall.use
+permissions:
+  giveall.use:
+    description: Allows use of the /giveall command
+    default: op
